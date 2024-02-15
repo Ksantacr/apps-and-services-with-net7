@@ -28,6 +28,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "sql-script", "sql-script", 
 		Chapter02\sql-script\Northwind4SQLServer.sql = Chapter02\sql-script\Northwind4SQLServer.sql
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Chapter03", "Chapter03", "{270FE26D-27D5-4A5F-B0ED-EDDA3B33FFD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.CosmosDb.SqlApi", "Chapter03\Northwind.CosmosDb.SqlApi\Northwind.CosmosDb.SqlApi.csproj", "{1466CB22-E5F9-48B2-8EB4-B4B88FE794F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +66,10 @@ Global
 		{B1E6173E-B4C6-450D-A9EF-3D54B4767DD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1E6173E-B4C6-450D-A9EF-3D54B4767DD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1E6173E-B4C6-450D-A9EF-3D54B4767DD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1466CB22-E5F9-48B2-8EB4-B4B88FE794F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1466CB22-E5F9-48B2-8EB4-B4B88FE794F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1466CB22-E5F9-48B2-8EB4-B4B88FE794F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1466CB22-E5F9-48B2-8EB4-B4B88FE794F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +83,7 @@ Global
 		{E74C9406-8FA8-4131-BC6E-146C2B3D4A7D} = {59F5FAB2-0289-4F23-B5FB-47AF2EA89AD1}
 		{B1E6173E-B4C6-450D-A9EF-3D54B4767DD7} = {59F5FAB2-0289-4F23-B5FB-47AF2EA89AD1}
 		{36326501-2DD6-4455-A044-3E2F3C10A9B6} = {59F5FAB2-0289-4F23-B5FB-47AF2EA89AD1}
+		{1466CB22-E5F9-48B2-8EB4-B4B88FE794F0} = {270FE26D-27D5-4A5F-B0ED-EDDA3B33FFD1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6D9DD3C4-772E-4BA1-B318-C80DF473DF13}
