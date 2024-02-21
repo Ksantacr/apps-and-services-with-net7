@@ -1,6 +1,7 @@
 {
   "conventionalCommits.scopes": [
     "benchmarking",
-    "third-party"
+    "third-party",
+    "code-assemblies"
   ]
 }
